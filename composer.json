@@ -1,0 +1,17 @@
+{
+  "name": "zhaohangyang/kuaidi100",
+  "authors": [
+    {
+      "name": "yangzhaohang",
+      "email": "yangzhaohang@comsenz-service.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kuaidi100\\": "src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.3"
+  }
+}
