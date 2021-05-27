@@ -37,21 +37,21 @@ class Kuaidi100
      *
      * @var [float]
      */
-    public $clientTimeout = 5.0;
+    public $client_timeout = 5.0;
     /**
      * 快递100 api_url
      *
      * @var string
      */
-    public $kd100ApiUrl = 'https://poll.Kuaidi100.com';
+    public $kd100_api_url = 'https://poll.Kuaidi100.com';
 
     public function __construct($key, $customer)
     {
         $this->key      = $key;
         $this->customer = $customer;
         $this->client   = new Client([
-            'timeout'  => $this->clientTimeout,
-            'base_uri' => $this->kd100ApiUrl,
+            'timeout'  => $this->client_timeout,
+            'base_uri' => $this->kd100_api_url,
         ]);
     }
 
